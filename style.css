@@ -1,24 +1,47 @@
 .menu {
     display: flex;
     outline-width: 4px;
-    width: 13%;
-    background-color: #ffffff;
     border-radius: 2px;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 25px;
     color: #000000;
-    flex-direction: column;
     align-items: center;
+    padding-bottom: 5%;
 }
 
 .navbar {
     display: flex;
-    font-size: 100%;
+    width: 70%;
+    font-size: 150%;
     color: #000000;
-    flex-direction: column;
-    padding: 5%;
-    outline-color: #000000;
-    outline-style:dotted    ;
+    outline-color: #a8a8a8;
+    outline-width: 5px;
+    background-color: rgb(255, 156, 156);
+    outline-style:solid;
+    justify-content: space-around;
+    font-family:fantasy;
+    padding:0.5%;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.boks {
+    display: flex;
+    width: 80%;
+    color: #000000;
+    outline-color: #a8a8a8;
+    outline-width: 5px;
+    background-color: rgb(255, 255, 255);
+    outline-style:solid;
+    justify-content: center;
+    font-family:fantasy;
+}
+
+body{
+    background-color: #000000;
 }
 
 .logo {
